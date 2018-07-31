@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px 30px 30px 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #F4F5F7;
+}
+
+.text {
+  margin: 10px;
+}
+
+.text h1 {
+  margin-bottom: 0;
+}
+
+.text p {
+  margin-top: 0;
+  color: rgba(0,0,0,.85);
+  font-weight: 100;
+}
+
+.pokemons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #FFF;
+  border: 1px solid #DFE1E5;
+  border-radius: 2px;
+}
+
+.pokemon.light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #FFF;
+  border: 1px solid #DFE1E5;
+  border-radius: 2px;
+}
+
+.pokemon.dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #555;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+.btn {
+  display: inline-block;
+  padding: .5rem 1rem;
+  background-color: #2f54eb;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 2px;
+}
